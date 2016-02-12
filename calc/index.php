@@ -1,11 +1,12 @@
 <?php
 
-require_once 'classes/calculator.php';
-require_once 'classes/operatorInterface.php';
-require_once 'classes/adder.php';
-require_once 'classes/subtractor.php';
-require_once 'classes/multiplier.php';
-require_once 'classes/divider.php';
+//require_once 'classes/calculator.php';
+//require_once 'classes/operatorInterface.php';
+//require_once 'classes/adder.php';
+//require_once 'classes/subtractor.php';
+//require_once 'classes/multiplier.php';
+//require_once 'classes/divider.php';
+require_once 'init.php';
 
 $calc = new Calculator();
 
