@@ -11,15 +11,15 @@ require_once 'init.php';
 $calc = new Calculator();
 
 $calc->setOperation(new Adder);
-$calc->calculate(10, 50); //60
+$calc->calculate(50, 50); //100
 
 $calc->setOperation(new Subtractor);
-$calc->calculate(30); //30
+$calc->calculate(30); //70
 
 $calc->setOperation(new Multiplier);
-$calc->calculate(5); //150
+$calc->calculate(3); //210
 
 $calc->setOperation(new Divider);
-$calc->calculate(2); //75
+$calc->calculate(2); //105
 
 echo $calc->getResult();
